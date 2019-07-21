@@ -1,0 +1,7 @@
+// Name of file and name of sitemap has to be the same
+sitemap x10 label="x10"
+{
+        Frame {
+            Switch item=Bedroom_Lamp
+        }
+}

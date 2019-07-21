@@ -1,0 +1,41 @@
+{
+  "_tags:NurseryLamp_Switch": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "_tags",
+          "NurseryLamp_Switch"
+        ]
+      },
+      "value": "Lighting|Switchable",
+      "configuration": {}
+    }
+  },
+  "_tags:XmasTree_Switch": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "_tags",
+          "XmasTree_Switch"
+        ]
+      },
+      "value": "Switchable",
+      "configuration": {}
+    }
+  },
+  "_tags:PatioLight_Dimmer": {
+    "class": "org.eclipse.smarthome.core.items.Metadata",
+    "value": {
+      "key": {
+        "segments": [
+          "_tags",
+          "PatioLight_Dimmer"
+        ]
+      },
+      "value": "Lighting",
+      "configuration": {}
+    }
+  }
+}

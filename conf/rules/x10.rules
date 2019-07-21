@@ -1,0 +1,24 @@
+rule "Bedroom Lamp Control"
+  when
+     Item Bedroom_Lamp changed
+  then
+        if(Bedroom_Lamp.state == ON){
+                x10rf_Args.sendCommand("b2 on")
+        }else{
+                x10rf_Args.sendCommand("b2 off")
+        }
+
+      // wait for the command to complete
+      // State will be NULL if not used before or ON while command is executed
+      while(x10rf.state != OFF){
+         Thread::sleep(500)
+      }
+      
+      // Trigger execution
+      x10rf.sendCommand(ON)
+      
+      // Logging of command line result
+      logInfo("Your command exec", "Result:" + x10rf.state )
+      
+end
+

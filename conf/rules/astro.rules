@@ -1,0 +1,16 @@
+rule "Turn on Patio Light at Sunset"
+when
+   Channel 'astro:sun:local:civilDusk#event' triggered START
+then
+    // Do what you want to do at start of sunset for example:
+    PatioLight_Dimmer.sendCommand(ON)
+end
+
+rule "Turn off Patio Light at 1am"
+when
+    Time cron "0 0 1 1/1 * ? *"
+then
+    // Do what you want to do at start of sunset
+    PatioLight_Dimmer.sendCommand(OFF)
+end
+

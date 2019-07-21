@@ -1,0 +1,33 @@
+rule "If flood sensor opens, say it with Kitchen Echo"
+when
+    Item BasementFloodSensor_BinarySensorFlood changed
+then
+	if(BasementFloodSensor_BinarySensorFlood.state == ON){
+		KitchenEcho_Speak.sendCommand("There is water near the sump pump")
+	}
+end
+
+rule "If flood sensor is tampered with, say it with Kitchen Echo"
+when
+    Item zwave_device_6167783f_node5_alarm_tamper2 changed
+then
+	logInfo("Flood Sensor Tamper Alarm","Sensor Changed" + zwave_device_6167783f_node5_alarm_tamper2.state)
+	logInfo("Tamper Alarm","Alarm State")
+    KitchenEcho_Speak.sendCommand('The flood sensor is being moved or opened')
+end
+
+//sendBroadcastNotification("Water Detected:  Dishwasher")
+
+// Low battery alert for flood sensor
+//rule "Low Battery Alert for Front Door"
+//when
+//	Item zwave_device_6167783f_node8_battery_level 
+//then
+//end
+
+//rule "Send Notification to Phone if Door is Open for 1 minute"
+//when
+//    Item zwave_device_6167783f_node8_sensor_door changed to OPEN
+//then
+//    KitchenEcho_Speak.sendCommand('The front door was opened')
+//end

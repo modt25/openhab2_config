@@ -1,0 +1,1 @@
+Thing exec:command:x10rf [command="M:/PROGRA~2/AHSDK/bin/ahcmd sendrf %2$s", autorun=true, interval=0]

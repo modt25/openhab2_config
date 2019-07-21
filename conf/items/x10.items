@@ -1,0 +1,6 @@
+Switch	Bedroom_Lamp "Bedroom Lamp"	(Lights)	
+
+// state of the execution, is running or finished
+Switch x10rf {channel="exec:command:x10rf:run"}
+// Arguments to be placed for '%2$s' in command line
+String x10rf_Args {channel="exec:command:x10rf:input"}

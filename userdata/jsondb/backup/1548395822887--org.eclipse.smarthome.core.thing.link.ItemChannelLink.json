@@ -1,0 +1,465 @@
+{
+  "Weather_Pressure -\u003e yahooweather:weather:b415d782:pressure": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "yahooweather",
+          "weather",
+          "b415d782",
+          "pressure"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Weather_Pressure"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_temperature -\u003e zwave:device:6167783f:node4:sensor_temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node4",
+          "sensor_temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node4_sensor_temperature"
+    }
+  },
+  "zwave_device_6167783f_node5_battery_level -\u003e zwave:device:6167783f:node5:battery-level": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node5",
+          "battery-level"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node5_battery_level"
+    }
+  },
+  "BasementFloodSensor_BinarySensorFlood -\u003e zwave:device:6167783f:node5:sensor_binary1": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node5",
+          "sensor_binary1"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "BasementFloodSensor_BinarySensorFlood"
+    }
+  },
+  "Civil_Sunrise -\u003e astro:sun:07ee270e:astroDawn#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "07ee270e",
+          "astroDawn#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Civil_Sunrise"
+    }
+  },
+  "zwave_device_6167783f_node4_alarm_burglar -\u003e zwave:device:6167783f:node4:alarm_burglar": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node4",
+          "alarm_burglar"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node4_alarm_burglar"
+    }
+  },
+  "NurseryLamp_Switch -\u003e zwave:device:6167783f:node2:switch_binary": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node2",
+          "switch_binary"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "NurseryLamp_Switch"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_binary -\u003e zwave:device:6167783f:node4:sensor_binary": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node4",
+          "sensor_binary"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node4_sensor_binary"
+    }
+  },
+  "Weather_Humidity -\u003e yahooweather:weather:b415d782:humidity": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "yahooweather",
+          "weather",
+          "b415d782",
+          "humidity"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Weather_Humidity"
+    }
+  },
+  "zwave_device_6167783f_node8_sensor_door -\u003e zwave:device:6167783f:node8:sensor_door": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node8",
+          "sensor_door"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node8_sensor_door"
+    }
+  },
+  "XmasTree_ElectricMeterKWh -\u003e zwave:device:6167783f:node3:meter_kwh": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node3",
+          "meter_kwh"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "XmasTree_ElectricMeterKWh"
+    }
+  },
+  "zwave_device_6167783f_node5_sensor_temperature2 -\u003e zwave:device:6167783f:node5:sensor_temperature2": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node5",
+          "sensor_temperature2"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node5_sensor_temperature2"
+    }
+  },
+  "XmasTree_Switch -\u003e zwave:device:6167783f:node3:switch_binary": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node3",
+          "switch_binary"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "XmasTree_Switch"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_luminance -\u003e zwave:device:6167783f:node4:sensor_luminance": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node4",
+          "sensor_luminance"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node4_sensor_luminance"
+    }
+  },
+  "zwave_device_6167783f_node4_battery_level -\u003e zwave:device:6167783f:node4:battery-level": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node4",
+          "battery-level"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node4_battery_level"
+    }
+  },
+  "Civil_Sunset -\u003e astro:sun:07ee270e:civilDusk#start": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "astro",
+          "sun",
+          "07ee270e",
+          "civilDusk#start"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Civil_Sunset"
+    }
+  },
+  "zwave_device_6167783f_node8_battery_level -\u003e zwave:device:6167783f:node8:battery-level": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node8",
+          "battery-level"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node8_battery_level"
+    }
+  },
+  "NurseryLamp_SensorPower -\u003e zwave:device:6167783f:node2:sensor_power": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node2",
+          "sensor_power"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "NurseryLamp_SensorPower"
+    }
+  },
+  "Weather_Temperature -\u003e yahooweather:weather:b415d782:temperature": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "yahooweather",
+          "weather",
+          "b415d782",
+          "temperature"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "Weather_Temperature"
+    }
+  },
+  "PatioLight_Dimmer -\u003e zwave:device:6167783f:node7:switch_dimmer": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node7",
+          "switch_dimmer"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "PatioLight_Dimmer"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_relhumidity -\u003e zwave:device:6167783f:node4:sensor_relhumidity": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node4",
+          "sensor_relhumidity"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node4_sensor_relhumidity"
+    }
+  },
+  "zwave_device_6167783f_node5_alarm_flood -\u003e zwave:device:6167783f:node5:alarm_flood": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node5",
+          "alarm_flood"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node5_alarm_flood"
+    }
+  },
+  "XmasTree_SensorPower -\u003e zwave:device:6167783f:node3:meter_watts": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node3",
+          "meter_watts"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "XmasTree_SensorPower"
+    }
+  },
+  "KitchenEcho_Speak -\u003e amazonechocontrol:echo:e3c717b6:B0F00712525200WT:textToSpeech": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "amazonechocontrol",
+          "echo",
+          "e3c717b6",
+          "B0F00712525200WT",
+          "textToSpeech"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "KitchenEcho_Speak"
+    }
+  },
+  "NurseryLamp_ElectricMeterKWh -\u003e zwave:device:6167783f:node2:meter_kwh": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node2",
+          "meter_kwh"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "NurseryLamp_ElectricMeterKWh"
+    }
+  },
+  "zwave_device_6167783f_node5_alarm_tamper2 -\u003e zwave:device:6167783f:node5:alarm_tamper2": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node5",
+          "alarm_tamper2"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "zwave_device_6167783f_node5_alarm_tamper2"
+    }
+  }
+}

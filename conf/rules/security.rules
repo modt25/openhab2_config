@@ -1,0 +1,11 @@
+rule "If security system is armed, say it with Kitchen Echo"
+when
+    Item SecurityArmed changed
+then
+	if (SecurityArmed.state == ON){
+		KitchenEcho_Speak.sendCommand('Security System Armed - You have 60 seconds to exit')
+	}
+	else if (SecurityArmed.state == OFF){
+		KitechEcho_Speak.sendCommand('Security System Disarmed')
+	}
+end

@@ -1,0 +1,20 @@
+rule "If front door opens, say it with Kitchen Echo"
+when
+    Item zwave_device_6167783f_node8_sensor_door changed to OPEN
+then
+    KitchenEcho_Speak.sendCommand('The front door was opened')
+end
+
+// Low battery alert for front door sensor
+//rule "Low Battery Alert for Front Door"
+//when
+//	Item zwave_device_6167783f_node8_battery_level 
+//then
+//end
+
+//rule "Send Notification to Phone if Door is Open for 1 minute"
+//when
+//    Item zwave_device_6167783f_node8_sensor_door changed to OPEN
+//then
+//    KitchenEcho_Speak.sendCommand('The front door was opened')
+//end

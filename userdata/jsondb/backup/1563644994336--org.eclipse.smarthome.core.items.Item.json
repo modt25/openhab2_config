@@ -1,0 +1,299 @@
+{
+  "Weather_Temperature": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "label": "Outdoor Temperature",
+      "category": "Temperature"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_binary": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "label": "Motion Sensor",
+      "category": "Motion"
+    }
+  },
+  "NurseryLamp_ElectricMeterKWh": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Nursery"
+      ],
+      "itemType": "Number:Energy",
+      "label": "Nursery Lamp Energy (kWh)",
+      "category": "Energy"
+    }
+  },
+  "MasterBedroom": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "label": "Master Bedroom",
+      "category": "Group"
+    }
+  },
+  "BasementFloodSensor_BinarySensorFlood": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "label": "Basement Flood Sensor",
+      "category": "Water"
+    }
+  },
+  "XmasTree_ElectricMeterKWh": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "LivingRoom"
+      ],
+      "itemType": "Number:Energy",
+      "label": "Xmas Tree Electricity Used (kWh)",
+      "category": "Energy"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_temperature": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "label": "Nursery Temperature",
+      "category": "Temperature"
+    }
+  },
+  "Weather_Pressure": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Pressure",
+      "label": "Outdoor Pressure",
+      "category": "Pressure"
+    }
+  },
+  "zwave_device_6167783f_node8_sensor_door": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Contact",
+      "label": "Front Door Open",
+      "category": "Door"
+    }
+  },
+  "Civil_Sunrise": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "DateTime",
+      "label": "Civil Sunrise",
+      "category": "Sun"
+    }
+  },
+  "PatioLight_Dimmer": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "label": "Patio Light",
+      "category": "OutdoorLight"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_luminance": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "label": "Nursery Luminance",
+      "category": "Light"
+    }
+  },
+  "zwave_device_6167783f_node5_sensor_temperature2": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "label": "Temperature",
+      "category": "Temperature"
+    }
+  },
+  "zwave_device_6167783f_node5_battery_level": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Batteries"
+      ],
+      "itemType": "Number",
+      "label": "Battery Level",
+      "category": "Battery"
+    }
+  },
+  "XmasTree_Switch": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "LivingRoom"
+      ],
+      "itemType": "Switch",
+      "label": "Christmas Tree",
+      "category": "Switch"
+    }
+  },
+  "zwave_device_6167783f_node4_sensor_relhumidity": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "label": "Nursery Humidity",
+      "category": "Humidity"
+    }
+  },
+  "zwave_device_6167783f_node4_battery_level": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Batteries"
+      ],
+      "itemType": "Number",
+      "label": "Battery Level",
+      "category": "Battery"
+    }
+  },
+  "NurseryLamp_SensorPower": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Nursery"
+      ],
+      "itemType": "Number:Power",
+      "label": "Nursery Lamp Power",
+      "category": "Energy"
+    }
+  },
+  "zwave_device_6167783f_node5_alarm_tamper2": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Switch",
+      "label": "Flood Sensor Tamper",
+      "category": "Alarm"
+    }
+  },
+  "XmasTree_SensorPower": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "LivingRoom"
+      ],
+      "itemType": "Number:Power",
+      "label": "Xmas Tree Power Consumed",
+      "category": "Energy"
+    }
+  },
+  "Batteries": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "label": "Batteries",
+      "category": "Group"
+    }
+  },
+  "Nursery": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "label": "Nursery",
+      "category": "Group"
+    }
+  },
+  "Civil_Sunset": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "DateTime",
+      "label": "Civil Sunset",
+      "category": "Moon"
+    }
+  },
+  "Weather_Humidity": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number",
+      "label": "Outdoor Humidity",
+      "category": "Humidity"
+    }
+  },
+  "LivingRoom": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "label": "Living Room",
+      "category": "Group"
+    }
+  },
+  "zwave_device_6167783f_node5_alarm_flood": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Contact",
+      "label": "Basement Flood Alarm",
+      "category": "Water"
+    }
+  },
+  "zwave_device_6167783f_node8_battery_level": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Batteries"
+      ],
+      "itemType": "Number",
+      "label": "Battery Level",
+      "category": "Battery"
+    }
+  },
+  "ZW095HomeEnergyMeterGen5_ElectricMeterAmps": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:ElectricCurrent",
+      "label": "Electric meter (amps)",
+      "category": "Energy"
+    }
+  },
+  "zwave_device_6167783f_node4_alarm_burglar": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Contact",
+      "label": "Motion Alarm",
+      "category": "Motion"
+    }
+  },
+  "NurseryLamp_Switch": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "Nursery"
+      ],
+      "itemType": "Switch",
+      "label": "Nursery Lamp",
+      "category": "Switch"
+    }
+  },
+  "KitchenEcho_Speak": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "String",
+      "label": "Kitchen Echo TTS",
+      "category": "Voice"
+    }
+  }
+}

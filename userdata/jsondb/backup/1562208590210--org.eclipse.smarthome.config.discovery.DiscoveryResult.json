@@ -1,0 +1,231 @@
+{
+  "astro:moon:local": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "thingUID": {
+        "segments": [
+          "astro",
+          "moon",
+          "local"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "astro",
+          "moon"
+        ]
+      },
+      "properties": {
+        "geolocation": "44.7406508,-93.19074479999999,0"
+      },
+      "representationProperty": "geolocation",
+      "flag": "IGNORED",
+      "label": "Local Moon",
+      "timestamp": 1562208589660,
+      "timeToLive": -1
+    }
+  },
+  "harmonyhub:device:LivingRoomHarmonyHub:54962463": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "harmonyhub",
+          "hub",
+          "LivingRoomHarmonyHub"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "harmonyhub",
+          "device",
+          "LivingRoomHarmonyHub",
+          "54962463"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "harmonyhub",
+          "device"
+        ]
+      },
+      "properties": {
+        "name": "Arris DVR",
+        "id": 54962463
+      },
+      "flag": "IGNORED",
+      "label": "Arris DVR",
+      "timestamp": 1545006823459,
+      "timeToLive": -1
+    }
+  },
+  "harmonyhub:device:LivingRoomHarmonyHub:45738762": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "harmonyhub",
+          "hub",
+          "LivingRoomHarmonyHub"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "harmonyhub",
+          "device",
+          "LivingRoomHarmonyHub",
+          "45738762"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "harmonyhub",
+          "device"
+        ]
+      },
+      "properties": {
+        "name": "Panasonic DVD",
+        "id": 45738762
+      },
+      "flag": "IGNORED",
+      "label": "Panasonic DVD",
+      "timestamp": 1545006823614,
+      "timeToLive": -1
+    }
+  },
+  "harmonyhub:device:LivingRoomHarmonyHub:45737597": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "harmonyhub",
+          "hub",
+          "LivingRoomHarmonyHub"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "harmonyhub",
+          "device",
+          "LivingRoomHarmonyHub",
+          "45737597"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "harmonyhub",
+          "device"
+        ]
+      },
+      "properties": {
+        "name": "Xfinity DVR",
+        "id": 4.5737597E7
+      },
+      "flag": "IGNORED",
+      "label": "Xfinity DVR",
+      "timestamp": 1545006823630,
+      "timeToLive": -1
+    }
+  },
+  "harmonyhub:device:LivingRoomHarmonyHub:45735360": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "harmonyhub",
+          "hub",
+          "LivingRoomHarmonyHub"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "harmonyhub",
+          "device",
+          "LivingRoomHarmonyHub",
+          "45735360"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "harmonyhub",
+          "device"
+        ]
+      },
+      "properties": {
+        "name": "Amazon Fire TV Stick",
+        "id": 45735360
+      },
+      "flag": "IGNORED",
+      "label": "Amazon Fire TV Stick",
+      "timestamp": 1545006823444,
+      "timeToLive": -1
+    }
+  },
+  "amazonechocontrol:flashbriefingprofile:e3c717b6:1": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "amazonechocontrol",
+          "account",
+          "e3c717b6"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "amazonechocontrol",
+          "flashbriefingprofile",
+          "e3c717b6",
+          "1"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "amazonechocontrol",
+          "flashbriefingprofile"
+        ]
+      },
+      "properties": {
+        "configurationJson": "[{\"feedId\":{\"value\":\"a07ebb8e-73eb-4eec-a044-5905e975357c\"},\"skillId\":\"amzn1.ask.skill.c86d0fa8-0307-471b-82af-aa71b816acc4\"},{\"feedId\":{\"value\":\"2cb77c21-d380-4310-badd-ffaba06fa292\"},\"skillId\":\"amzn1.ask.skill.49098ed3-99fd-4357-b58b-ca1d91c3e897\"},{\"feedId\":{\"value\":\"34b360eb-09bf-4569-bca2-fe2f7a6388a3\"},\"skillId\":\"amzn1.ask.skill.bad89c57-76ae-43fe-88a8-dade9407502a\"},{\"feedId\":{\"value\":\"690a40fd-34a0-41b4-821f-88975205304d\"},\"skillId\":\"amzn1.ask.skill.5cb5155d-c37d-420f-a541-3ba663ca4e9f\"},{\"feedId\":{\"value\":\"a3e59c30-9dd6-4a03-9cec-666dde5272ef\"},\"skillId\":\"amzn1.ask.skill.66d85811-7903-4e32-9771-e6e606783d22\"},{\"feedId\":{\"value\":\"774043da-675e-41e4-9daa-9cf971c4cb18\"},\"skillId\":\"amzn1.ask.skill.b7613e08-ccbe-45a1-9a18-1d7538f44bec\"},{\"feedId\":{\"value\":\"928aabf9-4dea-4148-9fd8-ca1f0ebda154\"},\"skillId\":\"amzn1.ask.skill.d1e394ef-c986-4c50-a139-eef18acf9ba0\"},{\"feedId\":{\"value\":\"f6eebc4a-ff03-4c38-9059-61fab3cc4235\"},\"skillId\":\"amzn1.ask.skill.d5d12a38-5e3e-47e4-bf46-0e0a150ca905\"}]"
+      },
+      "flag": "NEW",
+      "label": "FlashBriefing 1",
+      "timestamp": 1547611029233,
+      "timeToLive": -1
+    }
+  },
+  "harmonyhub:device:LivingRoomHarmonyHub:45738722": {
+    "class": "org.eclipse.smarthome.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "harmonyhub",
+          "hub",
+          "LivingRoomHarmonyHub"
+        ]
+      },
+      "thingUID": {
+        "segments": [
+          "harmonyhub",
+          "device",
+          "LivingRoomHarmonyHub",
+          "45738722"
+        ]
+      },
+      "thingTypeUID": {
+        "segments": [
+          "harmonyhub",
+          "device"
+        ]
+      },
+      "properties": {
+        "name": "Sony AV Receiver",
+        "id": 4.5738722E7
+      },
+      "flag": "IGNORED",
+      "label": "Sony AV Receiver",
+      "timestamp": 1545006823661,
+      "timeToLive": -1
+    }
+  }
+}
