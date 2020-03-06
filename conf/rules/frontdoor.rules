@@ -6,11 +6,14 @@ then
 end
 
 // Low battery alert for front door sensor
-//rule "Low Battery Alert for Front Door"
-//when
-//	Item zwave_device_6167783f_node8_battery_level 
-//then
-//end
+rule "Low Battery Alert for Front Door"
+when
+	Item zwave_device_6167783f_node8_battery_level changed
+then
+	if((zwave_device_6167783f_node8_battery_level.state as DecimalType) <= 10){
+		sendMail("modtland.brian@gmail.com", "Front Door - Low Battery", "Low Battery on the Front Door Sensor")
+	}
+end
 
 //rule "Send Notification to Phone if Door is Open for 1 minute"
 //when

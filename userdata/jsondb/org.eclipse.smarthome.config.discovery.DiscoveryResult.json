@@ -21,7 +21,7 @@
       "representationProperty": "geolocation",
       "flag": "IGNORED",
       "label": "Local Moon",
-      "timestamp": 1563644774836,
+      "timestamp": 1580183928342,
       "timeToLive": -1
     }
   },
@@ -186,11 +186,11 @@
         ]
       },
       "properties": {
-        "configurationJson": "[{\"feedId\":{\"value\":\"a07ebb8e-73eb-4eec-a044-5905e975357c\"},\"skillId\":\"amzn1.ask.skill.c86d0fa8-0307-471b-82af-aa71b816acc4\"},{\"feedId\":{\"value\":\"2cb77c21-d380-4310-badd-ffaba06fa292\"},\"skillId\":\"amzn1.ask.skill.49098ed3-99fd-4357-b58b-ca1d91c3e897\"},{\"feedId\":{\"value\":\"34b360eb-09bf-4569-bca2-fe2f7a6388a3\"},\"skillId\":\"amzn1.ask.skill.bad89c57-76ae-43fe-88a8-dade9407502a\"},{\"feedId\":{\"value\":\"690a40fd-34a0-41b4-821f-88975205304d\"},\"skillId\":\"amzn1.ask.skill.5cb5155d-c37d-420f-a541-3ba663ca4e9f\"},{\"feedId\":{\"value\":\"a3e59c30-9dd6-4a03-9cec-666dde5272ef\"},\"skillId\":\"amzn1.ask.skill.66d85811-7903-4e32-9771-e6e606783d22\"},{\"feedId\":{\"value\":\"774043da-675e-41e4-9daa-9cf971c4cb18\"},\"skillId\":\"amzn1.ask.skill.b7613e08-ccbe-45a1-9a18-1d7538f44bec\"},{\"feedId\":{\"value\":\"928aabf9-4dea-4148-9fd8-ca1f0ebda154\"},\"skillId\":\"amzn1.ask.skill.d1e394ef-c986-4c50-a139-eef18acf9ba0\"},{\"feedId\":{\"value\":\"f6eebc4a-ff03-4c38-9059-61fab3cc4235\"},\"skillId\":\"amzn1.ask.skill.d5d12a38-5e3e-47e4-bf46-0e0a150ca905\"}]"
+        "configurationJson": "[{\"feedId\":{\"value\":\"a07ebb8e-73eb-4eec-a044-5905e975357c\"},\"skillId\":\"amzn1.ask.skill.c86d0fa8-0307-471b-82af-aa71b816acc4\"},{\"feedId\":{\"value\":\"2cb77c21-d380-4310-badd-ffaba06fa292\"},\"skillId\":\"amzn1.ask.skill.49098ed3-99fd-4357-b58b-ca1d91c3e897\"},{\"feedId\":{\"value\":\"34b360eb-09bf-4569-bca2-fe2f7a6388a3\"},\"skillId\":\"amzn1.ask.skill.bad89c57-76ae-43fe-88a8-dade9407502a\"},{\"feedId\":{\"value\":\"690a40fd-34a0-41b4-821f-88975205304d\"},\"skillId\":\"amzn1.ask.skill.5cb5155d-c37d-420f-a541-3ba663ca4e9f\"},{\"feedId\":{\"value\":\"a3e59c30-9dd6-4a03-9cec-666dde5272ef\"},\"skillId\":\"amzn1.ask.skill.66d85811-7903-4e32-9771-e6e606783d22\"},{\"feedId\":{\"value\":\"928aabf9-4dea-4148-9fd8-ca1f0ebda154\"},\"skillId\":\"amzn1.ask.skill.d1e394ef-c986-4c50-a139-eef18acf9ba0\"},{\"feedId\":{\"value\":\"6c3a2ef2-1b7a-4866-89d3-faea66b5c305\"},\"skillId\":\"amzn1.ask.skill.c98b0a23-463b-40f7-b8fa-895708bf61d7\"}]"
       },
       "flag": "NEW",
       "label": "FlashBriefing 1",
-      "timestamp": 1547611029233,
+      "timestamp": 1566104927910,
       "timeToLive": -1
     }
   },

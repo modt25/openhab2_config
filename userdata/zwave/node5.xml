@@ -30,153 +30,37 @@
   </nodeInformationFrame>
   <supportedCommandClasses>
     <entry>
-      <commandClass>MULTI_INSTANCE</commandClass>
-      <multiInstanceCommandClass>
+      <commandClass>SENSOR_ALARM</commandClass>
+      <alarmSensorCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <alarms>
+          <entry>
+            <alarmSensorType>FLOOD</alarmSensorType>
+            <alarmSensor>
+              <alarmType>FLOOD</alarmType>
+            </alarmSensor>
+          </entry>
+          <entry>
+            <alarmSensorType>GENERAL</alarmSensorType>
+            <alarmSensor>
+              <alarmType>GENERAL</alarmType>
+            </alarmSensor>
+          </entry>
+        </alarms>
+        <isGetSupported>true</isGetSupported>
+        <isSupportedGetSupported>true</isSupportedGetSupported>
+      </alarmSensorCommandClass>
+    </entry>
+    <entry>
+      <commandClass>MULTI_INSTANCE_ASSOCIATION</commandClass>
+      <multiAssociationCommandClass>
         <version>2</version>
         <instances>1</instances>
-        <versionSupported>3</versionSupported>
-        <endpoints>
-          <entry>
-            <int>1</int>
-            <endPoint>
-              <deviceClass>
-                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
-                <genericDeviceClass>BINARY_SENSOR</genericDeviceClass>
-                <specificDeviceClass>ROUTING_SENSOR_BINARY</specificDeviceClass>
-              </deviceClass>
-              <endpointId>1</endpointId>
-              <supportedCommandClasses>
-                <entry>
-                  <commandClass>SENSOR_BINARY</commandClass>
-                  <binarySensorCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>1</version>
-                    <instances>1</instances>
-                    <versionSupported>1</versionSupported>
-                    <isGetSupported>true</isGetSupported>
-                    <types/>
-                  </binarySensorCommandClass>
-                </entry>
-                <entry>
-                  <commandClass>BASIC</commandClass>
-                  <basicCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>0</version>
-                    <instances>0</instances>
-                    <versionSupported>0</versionSupported>
-                    <isGetSupported>true</isGetSupported>
-                  </basicCommandClass>
-                </entry>
-              </supportedCommandClasses>
-            </endPoint>
-          </entry>
-          <entry>
-            <int>2</int>
-            <endPoint>
-              <deviceClass>
-                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
-                <genericDeviceClass>MULTILEVEL_SENSOR</genericDeviceClass>
-                <specificDeviceClass>ROUTING_SENSOR_MULTILEVEL</specificDeviceClass>
-              </deviceClass>
-              <endpointId>2</endpointId>
-              <supportedCommandClasses>
-                <entry>
-                  <commandClass>BASIC</commandClass>
-                  <basicCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>0</version>
-                    <instances>0</instances>
-                    <versionSupported>0</versionSupported>
-                    <isGetSupported>true</isGetSupported>
-                  </basicCommandClass>
-                </entry>
-                <entry>
-                  <commandClass>SENSOR_MULTILEVEL</commandClass>
-                  <multiLevelSensorCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>0</version>
-                    <instances>1</instances>
-                    <versionSupported>0</versionSupported>
-                    <sensors>
-                      <entry>
-                        <multilevelSensorType>TEMPERATURE</multilevelSensorType>
-                        <multilevelSensor>
-                          <sensorType>TEMPERATURE</sensorType>
-                          <initialised>true</initialised>
-                        </multilevelSensor>
-                      </entry>
-                    </sensors>
-                    <isGetSupported>true</isGetSupported>
-                  </multiLevelSensorCommandClass>
-                </entry>
-              </supportedCommandClasses>
-            </endPoint>
-          </entry>
-        </endpoints>
-        <useDestEndpointAsSource>false</useDestEndpointAsSource>
-        <endpointsAreTheSameDeviceClass>false</endpointsAreTheSameDeviceClass>
-      </multiInstanceCommandClass>
-    </entry>
-    <entry>
-      <commandClass>VERSION</commandClass>
-      <versionCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <libraryType>LIB_SLAVE_ENHANCED</libraryType>
-        <protocolVersion>3.67</protocolVersion>
-        <applicationVersion>26.26</applicationVersion>
-      </versionCommandClass>
-    </entry>
-    <entry>
-      <commandClass>SENSOR_BINARY</commandClass>
-      <binarySensorCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <isGetSupported>true</isGetSupported>
-        <types/>
-      </binarySensorCommandClass>
-    </entry>
-    <entry>
-      <commandClass>BATTERY</commandClass>
-      <batteryCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <batteryLevel>48</batteryLevel>
-        <batteryLow>false</batteryLow>
-        <isGetSupported>true</isGetSupported>
-      </batteryCommandClass>
-    </entry>
-    <entry>
-      <commandClass>NO_OPERATION</commandClass>
-      <noOperationCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-      </noOperationCommandClass>
-    </entry>
-    <entry>
-      <commandClass>BASIC</commandClass>
-      <basicCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <isGetSupported>true</isGetSupported>
-      </basicCommandClass>
-    </entry>
-    <entry>
-      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
-      <manufacturerSpecificCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <initSerialNumber>false</initSerialNumber>
-        <deviceManufacturer>271</deviceManufacturer>
-        <deviceType>2816</deviceType>
-        <deviceId>8193</deviceId>
-      </manufacturerSpecificCommandClass>
+        <versionSupported>2</versionSupported>
+        <maxGroups>2</maxGroups>
+      </multiAssociationCommandClass>
     </entry>
     <entry>
       <commandClass>CONFIGURATION</commandClass>
@@ -369,46 +253,12 @@
       </configurationCommandClass>
     </entry>
     <entry>
-      <commandClass>SENSOR_ALARM</commandClass>
-      <alarmSensorCommandClass>
+      <commandClass>NO_OPERATION</commandClass>
+      <noOperationCommandClass>
         <version>1</version>
         <instances>1</instances>
         <versionSupported>1</versionSupported>
-        <alarms>
-          <entry>
-            <alarmSensorType>FLOOD</alarmSensorType>
-            <alarmSensor>
-              <alarmType>FLOOD</alarmType>
-            </alarmSensor>
-          </entry>
-          <entry>
-            <alarmSensorType>GENERAL</alarmSensorType>
-            <alarmSensor>
-              <alarmType>GENERAL</alarmType>
-            </alarmSensor>
-          </entry>
-        </alarms>
-        <isGetSupported>true</isGetSupported>
-        <isSupportedGetSupported>true</isSupportedGetSupported>
-      </alarmSensorCommandClass>
-    </entry>
-    <entry>
-      <commandClass>MULTI_INSTANCE_ASSOCIATION</commandClass>
-      <multiAssociationCommandClass>
-        <version>2</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <maxGroups>2</maxGroups>
-      </multiAssociationCommandClass>
-    </entry>
-    <entry>
-      <commandClass>ASSOCIATION</commandClass>
-      <associationCommandClass>
-        <version>2</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <maxGroups>3</maxGroups>
-      </associationCommandClass>
+      </noOperationCommandClass>
     </entry>
     <entry>
       <commandClass>WAKE_UP</commandClass>
@@ -422,9 +272,159 @@
         <maxInterval>2147483647</maxInterval>
         <defaultInterval>0</defaultInterval>
         <intervalStep>0</intervalStep>
-        <lastWakeup>2019-07-20 19:05:04.423 UTC</lastWakeup>
+        <lastWakeup>2020-01-28 05:52:32.53 UTC</lastWakeup>
         <isGetSupported>true</isGetSupported>
       </WakeUpCommandClass>
+    </entry>
+    <entry>
+      <commandClass>VERSION</commandClass>
+      <versionCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <libraryType>LIB_SLAVE_ENHANCED</libraryType>
+        <protocolVersion>3.67</protocolVersion>
+        <applicationVersion>26.26</applicationVersion>
+      </versionCommandClass>
+    </entry>
+    <entry>
+      <commandClass>ASSOCIATION</commandClass>
+      <associationCommandClass>
+        <version>2</version>
+        <instances>1</instances>
+        <versionSupported>2</versionSupported>
+        <maxGroups>3</maxGroups>
+      </associationCommandClass>
+    </entry>
+    <entry>
+      <commandClass>MULTI_INSTANCE</commandClass>
+      <multiInstanceCommandClass>
+        <version>2</version>
+        <instances>1</instances>
+        <versionSupported>3</versionSupported>
+        <endpoints>
+          <entry>
+            <int>1</int>
+            <endPoint>
+              <deviceClass>
+                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
+                <genericDeviceClass>BINARY_SENSOR</genericDeviceClass>
+                <specificDeviceClass>ROUTING_SENSOR_BINARY</specificDeviceClass>
+              </deviceClass>
+              <endpointId>1</endpointId>
+              <supportedCommandClasses>
+                <entry>
+                  <commandClass>SENSOR_BINARY</commandClass>
+                  <binarySensorCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>1</version>
+                    <instances>1</instances>
+                    <versionSupported>1</versionSupported>
+                    <isGetSupported>true</isGetSupported>
+                    <types/>
+                  </binarySensorCommandClass>
+                </entry>
+                <entry>
+                  <commandClass>BASIC</commandClass>
+                  <basicCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>0</version>
+                    <instances>0</instances>
+                    <versionSupported>0</versionSupported>
+                    <isGetSupported>true</isGetSupported>
+                  </basicCommandClass>
+                </entry>
+              </supportedCommandClasses>
+            </endPoint>
+          </entry>
+          <entry>
+            <int>2</int>
+            <endPoint>
+              <deviceClass>
+                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
+                <genericDeviceClass>MULTILEVEL_SENSOR</genericDeviceClass>
+                <specificDeviceClass>ROUTING_SENSOR_MULTILEVEL</specificDeviceClass>
+              </deviceClass>
+              <endpointId>2</endpointId>
+              <supportedCommandClasses>
+                <entry>
+                  <commandClass>BASIC</commandClass>
+                  <basicCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>0</version>
+                    <instances>0</instances>
+                    <versionSupported>0</versionSupported>
+                    <isGetSupported>true</isGetSupported>
+                  </basicCommandClass>
+                </entry>
+                <entry>
+                  <commandClass>SENSOR_MULTILEVEL</commandClass>
+                  <multiLevelSensorCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>0</version>
+                    <instances>1</instances>
+                    <versionSupported>0</versionSupported>
+                    <sensors>
+                      <entry>
+                        <multilevelSensorType>TEMPERATURE</multilevelSensorType>
+                        <multilevelSensor>
+                          <sensorType>TEMPERATURE</sensorType>
+                          <initialised>true</initialised>
+                        </multilevelSensor>
+                      </entry>
+                    </sensors>
+                    <isGetSupported>true</isGetSupported>
+                  </multiLevelSensorCommandClass>
+                </entry>
+              </supportedCommandClasses>
+            </endPoint>
+          </entry>
+        </endpoints>
+        <useDestEndpointAsSource>false</useDestEndpointAsSource>
+        <endpointsAreTheSameDeviceClass>false</endpointsAreTheSameDeviceClass>
+      </multiInstanceCommandClass>
+    </entry>
+    <entry>
+      <commandClass>SENSOR_BINARY</commandClass>
+      <binarySensorCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <isGetSupported>true</isGetSupported>
+        <types/>
+      </binarySensorCommandClass>
+    </entry>
+    <entry>
+      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
+      <manufacturerSpecificCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <initSerialNumber>false</initSerialNumber>
+        <deviceManufacturer>271</deviceManufacturer>
+        <deviceType>2816</deviceType>
+        <deviceId>8193</deviceId>
+      </manufacturerSpecificCommandClass>
+    </entry>
+    <entry>
+      <commandClass>BASIC</commandClass>
+      <basicCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <isGetSupported>true</isGetSupported>
+      </basicCommandClass>
+    </entry>
+    <entry>
+      <commandClass>BATTERY</commandClass>
+      <batteryCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <batteryLevel>48</batteryLevel>
+        <batteryLow>false</batteryLow>
+        <isGetSupported>true</isGetSupported>
+      </batteryCommandClass>
     </entry>
   </supportedCommandClasses>
   <securedCommandClasses/>
@@ -465,6 +465,6 @@
     <int>1</int>
     <int>2</int>
   </nodeNeighbors>
-  <lastSent>2019-07-20 19:05:27.444 UTC</lastSent>
-  <lastReceived>2019-07-20 19:05:09.728 UTC</lastReceived>
+  <lastSent>2020-01-28 05:52:54.850 UTC</lastSent>
+  <lastReceived>2020-01-28 05:52:37.374 UTC</lastReceived>
 </node>

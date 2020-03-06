@@ -28,73 +28,6 @@
   </nodeInformationFrame>
   <supportedCommandClasses>
     <entry>
-      <commandClass>VERSION</commandClass>
-      <versionCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <libraryType>LIB_SLAVE_ENHANCED</libraryType>
-        <protocolVersion>2.78</protocolVersion>
-        <applicationVersion>1.43</applicationVersion>
-      </versionCommandClass>
-    </entry>
-    <entry>
-      <commandClass>SWITCH_BINARY</commandClass>
-      <binarySwitchCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <isGetSupported>true</isGetSupported>
-      </binarySwitchCommandClass>
-    </entry>
-    <entry>
-      <commandClass>NO_OPERATION</commandClass>
-      <noOperationCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-      </noOperationCommandClass>
-    </entry>
-    <entry>
-      <commandClass>BASIC</commandClass>
-      <basicCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <isGetSupported>true</isGetSupported>
-      </basicCommandClass>
-    </entry>
-    <entry>
-      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
-      <manufacturerSpecificCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <initSerialNumber>false</initSerialNumber>
-        <deviceManufacturer>134</deviceManufacturer>
-        <deviceType>3</deviceType>
-        <deviceId>6</deviceId>
-      </manufacturerSpecificCommandClass>
-    </entry>
-    <entry>
-      <commandClass>SENSOR_MULTILEVEL</commandClass>
-      <multiLevelSensorCommandClass>
-        <version>3</version>
-        <instances>1</instances>
-        <versionSupported>3</versionSupported>
-        <sensors>
-          <entry>
-            <multilevelSensorType>POWER</multilevelSensorType>
-            <multilevelSensor>
-              <sensorType>POWER</sensorType>
-              <initialised>true</initialised>
-            </multilevelSensor>
-          </entry>
-        </sensors>
-        <isGetSupported>true</isGetSupported>
-      </multiLevelSensorCommandClass>
-    </entry>
-    <entry>
       <commandClass>SWITCH_ALL</commandClass>
       <switchAllCommandClass>
         <version>1</version>
@@ -103,6 +36,14 @@
         <isGetSupported>true</isGetSupported>
         <mode>SWITCH_ALL_INCLUDE_ON_OFF</mode>
       </switchAllCommandClass>
+    </entry>
+    <entry>
+      <commandClass>NO_OPERATION</commandClass>
+      <noOperationCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+      </noOperationCommandClass>
     </entry>
     <entry>
       <commandClass>CONFIGURATION</commandClass>
@@ -265,6 +206,15 @@
       </configurationCommandClass>
     </entry>
     <entry>
+      <commandClass>SWITCH_BINARY</commandClass>
+      <binarySwitchCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <isGetSupported>true</isGetSupported>
+      </binarySwitchCommandClass>
+    </entry>
+    <entry>
       <commandClass>METER</commandClass>
       <meterCommandClass>
         <version>2</version>
@@ -281,6 +231,17 @@
       </meterCommandClass>
     </entry>
     <entry>
+      <commandClass>VERSION</commandClass>
+      <versionCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <libraryType>LIB_SLAVE_ENHANCED</libraryType>
+        <protocolVersion>2.78</protocolVersion>
+        <applicationVersion>1.43</applicationVersion>
+      </versionCommandClass>
+    </entry>
+    <entry>
       <commandClass>ASSOCIATION</commandClass>
       <associationCommandClass>
         <version>1</version>
@@ -288,6 +249,45 @@
         <versionSupported>1</versionSupported>
         <maxGroups>1</maxGroups>
       </associationCommandClass>
+    </entry>
+    <entry>
+      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
+      <manufacturerSpecificCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <initSerialNumber>false</initSerialNumber>
+        <deviceManufacturer>134</deviceManufacturer>
+        <deviceType>3</deviceType>
+        <deviceId>6</deviceId>
+      </manufacturerSpecificCommandClass>
+    </entry>
+    <entry>
+      <commandClass>BASIC</commandClass>
+      <basicCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <isGetSupported>true</isGetSupported>
+      </basicCommandClass>
+    </entry>
+    <entry>
+      <commandClass>SENSOR_MULTILEVEL</commandClass>
+      <multiLevelSensorCommandClass>
+        <version>3</version>
+        <instances>1</instances>
+        <versionSupported>3</versionSupported>
+        <sensors>
+          <entry>
+            <multilevelSensorType>POWER</multilevelSensorType>
+            <multilevelSensor>
+              <sensorType>POWER</sensorType>
+              <initialised>true</initialised>
+            </multilevelSensor>
+          </entry>
+        </sensors>
+        <isGetSupported>true</isGetSupported>
+      </multiLevelSensorCommandClass>
     </entry>
   </supportedCommandClasses>
   <securedCommandClasses/>
@@ -314,6 +314,6 @@
     <int>8</int>
     <int>9</int>
   </nodeNeighbors>
-  <lastSent>2019-07-20 17:47:58.365 UTC</lastSent>
-  <lastReceived>2019-07-20 17:47:58.408 UTC</lastReceived>
+  <lastSent>2020-01-28 04:00:23.952 UTC</lastSent>
+  <lastReceived>2020-01-28 04:00:24.175 UTC</lastReceived>
 </node>

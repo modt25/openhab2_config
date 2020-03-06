@@ -4,6 +4,7 @@ when
 then
 	if(BasementFloodSensor_BinarySensorFlood.state == ON){
 		KitchenEcho_Speak.sendCommand("There is water near the sump pump")
+		sendMail("modtland.brian@gmail.com", "FloodSensor - WATER ALERT", "Flood Sensor has detected water in the basement.")
 	}
 end
 

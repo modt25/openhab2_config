@@ -33,41 +33,52 @@
   </nodeInformationFrame>
   <supportedCommandClasses>
     <entry>
-      <commandClass>SENSOR_BINARY</commandClass>
-      <binarySensorCommandClass>
+      <commandClass>ALARM</commandClass>
+      <alarmCommandClass>
+        <version>4</version>
+        <instances>1</instances>
+        <versionSupported>4</versionSupported>
+        <alarms>
+          <entry>
+            <alarmType>ACCESS_CONTROL</alarmType>
+            <alarmState>
+              <alarmType>ACCESS_CONTROL</alarmType>
+              <reportedEvents>
+                <int>22</int>
+                <int>23</int>
+              </reportedEvents>
+              <outer-class reference="../../../.."/>
+            </alarmState>
+          </entry>
+        </alarms>
+        <v1Supported>true</v1Supported>
+        <isGetSupported>true</isGetSupported>
+      </alarmCommandClass>
+    </entry>
+    <entry>
+      <commandClass>WAKE_UP</commandClass>
+      <WakeUpCommandClass>
+        <version>2</version>
+        <instances>1</instances>
+        <versionSupported>2</versionSupported>
+        <targetNodeId>1</targetNodeId>
+        <interval>240</interval>
+        <minInterval>240</minInterval>
+        <maxInterval>864000</maxInterval>
+        <defaultInterval>0</defaultInterval>
+        <intervalStep>240</intervalStep>
+        <lastWakeup>2019-09-12 12:50:53.565 UTC</lastWakeup>
+        <isGetSupported>true</isGetSupported>
+      </WakeUpCommandClass>
+    </entry>
+    <entry>
+      <commandClass>BASIC</commandClass>
+      <basicCommandClass>
         <version>1</version>
         <instances>1</instances>
         <versionSupported>1</versionSupported>
         <isGetSupported>true</isGetSupported>
-        <types/>
-      </binarySensorCommandClass>
-    </entry>
-    <entry>
-      <commandClass>ASSOCIATION_GROUP_INFO</commandClass>
-      <associationGroupInfoCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <autoSubscribeGroups>
-          <int>1</int>
-        </autoSubscribeGroups>
-      </associationGroupInfoCommandClass>
-    </entry>
-    <entry>
-      <commandClass>NO_OPERATION</commandClass>
-      <noOperationCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-      </noOperationCommandClass>
-    </entry>
-    <entry>
-      <commandClass>FIRMWARE_UPDATE_MD</commandClass>
-      <firmwareUpdateCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-      </firmwareUpdateCommandClass>
+      </basicCommandClass>
     </entry>
     <entry>
       <commandClass>CONFIGURATION</commandClass>
@@ -160,14 +171,33 @@
       </configurationCommandClass>
     </entry>
     <entry>
-      <commandClass>POWERLEVEL</commandClass>
-      <powerLevelCommandClass>
+      <commandClass>SENSOR_BINARY</commandClass>
+      <binarySensorCommandClass>
         <version>1</version>
         <instances>1</instances>
         <versionSupported>1</versionSupported>
-        <powerLevel>0</powerLevel>
-        <powerTimeout>0</powerTimeout>
-      </powerLevelCommandClass>
+        <isGetSupported>true</isGetSupported>
+        <types/>
+      </binarySensorCommandClass>
+    </entry>
+    <entry>
+      <commandClass>ASSOCIATION_GROUP_INFO</commandClass>
+      <associationGroupInfoCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <autoSubscribeGroups>
+          <int>1</int>
+        </autoSubscribeGroups>
+      </associationGroupInfoCommandClass>
+    </entry>
+    <entry>
+      <commandClass>DEVICE_RESET_LOCALLY</commandClass>
+      <deviceResetLocallyCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+      </deviceResetLocallyCommandClass>
     </entry>
     <entry>
       <commandClass>VERSION</commandClass>
@@ -182,23 +212,14 @@
       </versionCommandClass>
     </entry>
     <entry>
-      <commandClass>BATTERY</commandClass>
-      <batteryCommandClass>
+      <commandClass>POWERLEVEL</commandClass>
+      <powerLevelCommandClass>
         <version>1</version>
         <instances>1</instances>
         <versionSupported>1</versionSupported>
-        <batteryLevel>55</batteryLevel>
-        <batteryLow>false</batteryLow>
-        <isGetSupported>true</isGetSupported>
-      </batteryCommandClass>
-    </entry>
-    <entry>
-      <commandClass>DEVICE_RESET_LOCALLY</commandClass>
-      <deviceResetLocallyCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-      </deviceResetLocallyCommandClass>
+        <powerLevel>0</powerLevel>
+        <powerTimeout>0</powerTimeout>
+      </powerLevelCommandClass>
     </entry>
     <entry>
       <commandClass>MANUFACTURER_SPECIFIC</commandClass>
@@ -213,13 +234,13 @@
       </manufacturerSpecificCommandClass>
     </entry>
     <entry>
-      <commandClass>BASIC</commandClass>
-      <basicCommandClass>
-        <version>1</version>
+      <commandClass>ASSOCIATION</commandClass>
+      <associationCommandClass>
+        <version>2</version>
         <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <isGetSupported>true</isGetSupported>
-      </basicCommandClass>
+        <versionSupported>2</versionSupported>
+        <maxGroups>1</maxGroups>
+      </associationCommandClass>
     </entry>
     <entry>
       <commandClass>ZWAVE_PLUS_INFO</commandClass>
@@ -236,52 +257,31 @@
       </zwavePlusCommandClass>
     </entry>
     <entry>
-      <commandClass>ALARM</commandClass>
-      <alarmCommandClass>
-        <version>4</version>
+      <commandClass>NO_OPERATION</commandClass>
+      <noOperationCommandClass>
+        <version>1</version>
         <instances>1</instances>
-        <versionSupported>4</versionSupported>
-        <alarms>
-          <entry>
-            <alarmType>ACCESS_CONTROL</alarmType>
-            <alarmState>
-              <alarmType>ACCESS_CONTROL</alarmType>
-              <reportedEvents>
-                <int>22</int>
-                <int>23</int>
-              </reportedEvents>
-              <outer-class reference="../../../.."/>
-            </alarmState>
-          </entry>
-        </alarms>
-        <v1Supported>true</v1Supported>
-        <isGetSupported>true</isGetSupported>
-      </alarmCommandClass>
+        <versionSupported>1</versionSupported>
+      </noOperationCommandClass>
     </entry>
     <entry>
-      <commandClass>WAKE_UP</commandClass>
-      <WakeUpCommandClass>
-        <version>2</version>
+      <commandClass>FIRMWARE_UPDATE_MD</commandClass>
+      <firmwareUpdateCommandClass>
+        <version>1</version>
         <instances>1</instances>
         <versionSupported>2</versionSupported>
-        <targetNodeId>1</targetNodeId>
-        <interval>240</interval>
-        <minInterval>240</minInterval>
-        <maxInterval>864000</maxInterval>
-        <defaultInterval>0</defaultInterval>
-        <intervalStep>240</intervalStep>
-        <lastWakeup>2019-07-20 18:35:26.276 UTC</lastWakeup>
-        <isGetSupported>true</isGetSupported>
-      </WakeUpCommandClass>
+      </firmwareUpdateCommandClass>
     </entry>
     <entry>
-      <commandClass>ASSOCIATION</commandClass>
-      <associationCommandClass>
-        <version>2</version>
+      <commandClass>BATTERY</commandClass>
+      <batteryCommandClass>
+        <version>1</version>
         <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <maxGroups>1</maxGroups>
-      </associationCommandClass>
+        <versionSupported>1</versionSupported>
+        <batteryLevel>86</batteryLevel>
+        <batteryLow>false</batteryLow>
+        <isGetSupported>true</isGetSupported>
+      </batteryCommandClass>
     </entry>
   </supportedCommandClasses>
   <securedCommandClasses/>
@@ -294,12 +294,12 @@
         <profile1>0x0</profile1>
         <profile2>0x0</profile2>
         <commands>
+          <commandClass>WAKE_UP</commandClass>
+          <commandClass>ALARM</commandClass>
+          <commandClass>BASIC</commandClass>
           <commandClass>SENSOR_BINARY</commandClass>
           <commandClass>BATTERY</commandClass>
           <commandClass>DEVICE_RESET_LOCALLY</commandClass>
-          <commandClass>BASIC</commandClass>
-          <commandClass>ALARM</commandClass>
-          <commandClass>WAKE_UP</commandClass>
         </commands>
         <associations>
           <associationMember>
@@ -315,6 +315,6 @@
     <int>2</int>
     <int>3</int>
   </nodeNeighbors>
-  <lastSent>2019-07-20 18:35:28.582 UTC</lastSent>
-  <lastReceived>2019-07-20 18:35:29.85 UTC</lastReceived>
+  <lastSent>2019-09-12 12:50:54.995 UTC</lastSent>
+  <lastReceived>2019-09-12 12:50:55.133 UTC</lastReceived>
 </node>

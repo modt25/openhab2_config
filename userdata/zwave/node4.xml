@@ -33,16 +33,6 @@
   </nodeInformationFrame>
   <supportedCommandClasses>
     <entry>
-      <commandClass>SENSOR_BINARY</commandClass>
-      <binarySensorCommandClass>
-        <version>0</version>
-        <instances>0</instances>
-        <versionSupported>0</versionSupported>
-        <isGetSupported>true</isGetSupported>
-        <types/>
-      </binarySensorCommandClass>
-    </entry>
-    <entry>
       <commandClass>ASSOCIATION_GROUP_INFO</commandClass>
       <associationGroupInfoCommandClass>
         <version>1</version>
@@ -54,6 +44,29 @@
       </associationGroupInfoCommandClass>
     </entry>
     <entry>
+      <commandClass>ALARM</commandClass>
+      <alarmCommandClass>
+        <version>4</version>
+        <instances>1</instances>
+        <versionSupported>4</versionSupported>
+        <alarms>
+          <entry>
+            <alarmType>BURGLAR</alarmType>
+            <alarmState>
+              <alarmType>BURGLAR</alarmType>
+              <reportedEvents>
+                <int>3</int>
+                <int>8</int>
+              </reportedEvents>
+              <outer-class reference="../../../.."/>
+            </alarmState>
+          </entry>
+        </alarms>
+        <v1Supported>false</v1Supported>
+        <isGetSupported>true</isGetSupported>
+      </alarmCommandClass>
+    </entry>
+    <entry>
       <commandClass>NO_OPERATION</commandClass>
       <noOperationCommandClass>
         <version>1</version>
@@ -62,44 +75,57 @@
       </noOperationCommandClass>
     </entry>
     <entry>
-      <commandClass>FIRMWARE_UPDATE_MD</commandClass>
-      <firmwareUpdateCommandClass>
+      <commandClass>POWERLEVEL</commandClass>
+      <powerLevelCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+        <powerLevel>0</powerLevel>
+        <powerTimeout>0</powerTimeout>
+      </powerLevelCommandClass>
+    </entry>
+    <entry>
+      <commandClass>DEVICE_RESET_LOCALLY</commandClass>
+      <deviceResetLocallyCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>1</versionSupported>
+      </deviceResetLocallyCommandClass>
+    </entry>
+    <entry>
+      <commandClass>ASSOCIATION</commandClass>
+      <associationCommandClass>
+        <version>2</version>
+        <instances>1</instances>
+        <versionSupported>2</versionSupported>
+        <maxGroups>1</maxGroups>
+      </associationCommandClass>
+    </entry>
+    <entry>
+      <commandClass>ZWAVE_PLUS_INFO</commandClass>
+      <zwavePlusCommandClass>
         <version>1</version>
         <instances>1</instances>
         <versionSupported>2</versionSupported>
-      </firmwareUpdateCommandClass>
+        <zwPlusVersion>1</zwPlusVersion>
+        <zwPlusRole>6</zwPlusRole>
+        <zwPlusNodeType>0</zwPlusNodeType>
+        <zwPlusDeviceType>0xc07</zwPlusDeviceType>
+        <zwPlusInstallerIcon>0xc07</zwPlusInstallerIcon>
+        <isGetSupported>true</isGetSupported>
+      </zwavePlusCommandClass>
     </entry>
     <entry>
-      <commandClass>SENSOR_MULTILEVEL</commandClass>
-      <multiLevelSensorCommandClass>
-        <version>7</version>
+      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
+      <manufacturerSpecificCommandClass>
+        <version>1</version>
         <instances>1</instances>
-        <versionSupported>7</versionSupported>
-        <sensors>
-          <entry>
-            <multilevelSensorType>LUMINANCE</multilevelSensorType>
-            <multilevelSensor>
-              <sensorType>LUMINANCE</sensorType>
-              <initialised>false</initialised>
-            </multilevelSensor>
-          </entry>
-          <entry>
-            <multilevelSensorType>RELATIVE_HUMIDITY</multilevelSensorType>
-            <multilevelSensor>
-              <sensorType>RELATIVE_HUMIDITY</sensorType>
-              <initialised>false</initialised>
-            </multilevelSensor>
-          </entry>
-          <entry>
-            <multilevelSensorType>TEMPERATURE</multilevelSensorType>
-            <multilevelSensor>
-              <sensorType>TEMPERATURE</sensorType>
-              <initialised>false</initialised>
-            </multilevelSensor>
-          </entry>
-        </sensors>
-        <isGetSupported>false</isGetSupported>
-      </multiLevelSensorCommandClass>
+        <versionSupported>2</versionSupported>
+        <initSerialNumber>false</initSerialNumber>
+        <deviceManufacturer>265</deviceManufacturer>
+        <deviceType>8225</deviceType>
+        <deviceId>8449</deviceId>
+      </manufacturerSpecificCommandClass>
     </entry>
     <entry>
       <commandClass>CONFIGURATION</commandClass>
@@ -182,14 +208,28 @@
       </configurationCommandClass>
     </entry>
     <entry>
-      <commandClass>POWERLEVEL</commandClass>
-      <powerLevelCommandClass>
+      <commandClass>FIRMWARE_UPDATE_MD</commandClass>
+      <firmwareUpdateCommandClass>
         <version>1</version>
         <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <powerLevel>0</powerLevel>
-        <powerTimeout>0</powerTimeout>
-      </powerLevelCommandClass>
+        <versionSupported>2</versionSupported>
+      </firmwareUpdateCommandClass>
+    </entry>
+    <entry>
+      <commandClass>WAKE_UP</commandClass>
+      <WakeUpCommandClass>
+        <version>2</version>
+        <instances>1</instances>
+        <versionSupported>2</versionSupported>
+        <targetNodeId>1</targetNodeId>
+        <interval>3600</interval>
+        <minInterval>600</minInterval>
+        <maxInterval>604800</maxInterval>
+        <defaultInterval>3600</defaultInterval>
+        <intervalStep>600</intervalStep>
+        <lastWakeup>2020-01-28 04:15:28.83 UTC</lastWakeup>
+        <isGetSupported>true</isGetSupported>
+      </WakeUpCommandClass>
     </entry>
     <entry>
       <commandClass>VERSION</commandClass>
@@ -204,6 +244,16 @@
       </versionCommandClass>
     </entry>
     <entry>
+      <commandClass>SENSOR_BINARY</commandClass>
+      <binarySensorCommandClass>
+        <version>0</version>
+        <instances>0</instances>
+        <versionSupported>0</versionSupported>
+        <isGetSupported>true</isGetSupported>
+        <types/>
+      </binarySensorCommandClass>
+    </entry>
+    <entry>
       <commandClass>BATTERY</commandClass>
       <batteryCommandClass>
         <version>1</version>
@@ -215,26 +265,6 @@
       </batteryCommandClass>
     </entry>
     <entry>
-      <commandClass>DEVICE_RESET_LOCALLY</commandClass>
-      <deviceResetLocallyCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>1</versionSupported>
-      </deviceResetLocallyCommandClass>
-    </entry>
-    <entry>
-      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
-      <manufacturerSpecificCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <initSerialNumber>false</initSerialNumber>
-        <deviceManufacturer>265</deviceManufacturer>
-        <deviceType>8225</deviceType>
-        <deviceId>8449</deviceId>
-      </manufacturerSpecificCommandClass>
-    </entry>
-    <entry>
       <commandClass>BASIC</commandClass>
       <basicCommandClass>
         <version>1</version>
@@ -244,66 +274,36 @@
       </basicCommandClass>
     </entry>
     <entry>
-      <commandClass>ZWAVE_PLUS_INFO</commandClass>
-      <zwavePlusCommandClass>
-        <version>1</version>
+      <commandClass>SENSOR_MULTILEVEL</commandClass>
+      <multiLevelSensorCommandClass>
+        <version>7</version>
         <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <zwPlusVersion>1</zwPlusVersion>
-        <zwPlusRole>6</zwPlusRole>
-        <zwPlusNodeType>0</zwPlusNodeType>
-        <zwPlusDeviceType>0xc07</zwPlusDeviceType>
-        <zwPlusInstallerIcon>0xc07</zwPlusInstallerIcon>
-        <isGetSupported>true</isGetSupported>
-      </zwavePlusCommandClass>
-    </entry>
-    <entry>
-      <commandClass>ALARM</commandClass>
-      <alarmCommandClass>
-        <version>4</version>
-        <instances>1</instances>
-        <versionSupported>4</versionSupported>
-        <alarms>
+        <versionSupported>7</versionSupported>
+        <sensors>
           <entry>
-            <alarmType>BURGLAR</alarmType>
-            <alarmState>
-              <alarmType>BURGLAR</alarmType>
-              <reportedEvents>
-                <int>3</int>
-                <int>8</int>
-              </reportedEvents>
-              <outer-class reference="../../../.."/>
-            </alarmState>
+            <multilevelSensorType>LUMINANCE</multilevelSensorType>
+            <multilevelSensor>
+              <sensorType>LUMINANCE</sensorType>
+              <initialised>false</initialised>
+            </multilevelSensor>
           </entry>
-        </alarms>
-        <v1Supported>false</v1Supported>
-        <isGetSupported>true</isGetSupported>
-      </alarmCommandClass>
-    </entry>
-    <entry>
-      <commandClass>WAKE_UP</commandClass>
-      <WakeUpCommandClass>
-        <version>2</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <targetNodeId>1</targetNodeId>
-        <interval>3600</interval>
-        <minInterval>600</minInterval>
-        <maxInterval>604800</maxInterval>
-        <defaultInterval>3600</defaultInterval>
-        <intervalStep>600</intervalStep>
-        <lastWakeup>2019-07-20 18:00:06.94 UTC</lastWakeup>
-        <isGetSupported>true</isGetSupported>
-      </WakeUpCommandClass>
-    </entry>
-    <entry>
-      <commandClass>ASSOCIATION</commandClass>
-      <associationCommandClass>
-        <version>2</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <maxGroups>1</maxGroups>
-      </associationCommandClass>
+          <entry>
+            <multilevelSensorType>RELATIVE_HUMIDITY</multilevelSensorType>
+            <multilevelSensor>
+              <sensorType>RELATIVE_HUMIDITY</sensorType>
+              <initialised>false</initialised>
+            </multilevelSensor>
+          </entry>
+          <entry>
+            <multilevelSensorType>TEMPERATURE</multilevelSensorType>
+            <multilevelSensor>
+              <sensorType>TEMPERATURE</sensorType>
+              <initialised>false</initialised>
+            </multilevelSensor>
+          </entry>
+        </sensors>
+        <isGetSupported>false</isGetSupported>
+      </multiLevelSensorCommandClass>
     </entry>
   </supportedCommandClasses>
   <securedCommandClasses/>
@@ -316,11 +316,11 @@
         <profile1>0x0</profile1>
         <profile2>0x1</profile2>
         <commands>
-          <commandClass>BATTERY</commandClass>
+          <commandClass>ALARM</commandClass>
           <commandClass>DEVICE_RESET_LOCALLY</commandClass>
           <commandClass>BASIC</commandClass>
+          <commandClass>BATTERY</commandClass>
           <commandClass>SENSOR_MULTILEVEL</commandClass>
-          <commandClass>ALARM</commandClass>
         </commands>
         <associations>
           <associationMember>
@@ -335,6 +335,6 @@
     <int>1</int>
     <int>2</int>
   </nodeNeighbors>
-  <lastSent>2019-07-20 18:00:11.278 UTC</lastSent>
-  <lastReceived>2019-07-20 18:00:11.625 UTC</lastReceived>
+  <lastSent>2020-01-28 04:15:33.187 UTC</lastSent>
+  <lastReceived>2020-01-28 04:15:33.227 UTC</lastReceived>
 </node>

@@ -32,102 +32,6 @@
   </nodeInformationFrame>
   <supportedCommandClasses>
     <entry>
-      <commandClass>MULTI_INSTANCE</commandClass>
-      <multiInstanceCommandClass>
-        <version>2</version>
-        <instances>1</instances>
-        <versionSupported>3</versionSupported>
-        <endpoints>
-          <entry>
-            <int>1</int>
-            <endPoint>
-              <deviceClass>
-                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
-                <genericDeviceClass>METER</genericDeviceClass>
-                <specificDeviceClass>SIMPLE_METER</specificDeviceClass>
-              </deviceClass>
-              <endpointId>1</endpointId>
-              <supportedCommandClasses>
-                <entry>
-                  <commandClass>BASIC</commandClass>
-                  <basicCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>0</version>
-                    <instances>0</instances>
-                    <versionSupported>0</versionSupported>
-                    <isGetSupported>true</isGetSupported>
-                  </basicCommandClass>
-                </entry>
-                <entry>
-                  <commandClass>METER</commandClass>
-                  <meterCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>3</version>
-                    <instances>1</instances>
-                    <versionSupported>3</versionSupported>
-                    <meterType>ELECTRIC</meterType>
-                    <meterScales>
-                      <meterScale>E_W</meterScale>
-                      <meterScale>E_V</meterScale>
-                      <meterScale>E_KWh</meterScale>
-                      <meterScale>E_A</meterScale>
-                    </meterScales>
-                    <canReset>true</canReset>
-                    <isGetSupported>true</isGetSupported>
-                    <isSupportRequestSupported>true</isSupportRequestSupported>
-                  </meterCommandClass>
-                </entry>
-              </supportedCommandClasses>
-            </endPoint>
-          </entry>
-          <entry>
-            <int>2</int>
-            <endPoint>
-              <deviceClass>
-                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
-                <genericDeviceClass>METER</genericDeviceClass>
-                <specificDeviceClass>SIMPLE_METER</specificDeviceClass>
-              </deviceClass>
-              <endpointId>2</endpointId>
-              <supportedCommandClasses>
-                <entry>
-                  <commandClass>BASIC</commandClass>
-                  <basicCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>0</version>
-                    <instances>0</instances>
-                    <versionSupported>0</versionSupported>
-                    <isGetSupported>true</isGetSupported>
-                  </basicCommandClass>
-                </entry>
-                <entry>
-                  <commandClass>METER</commandClass>
-                  <meterCommandClass>
-                    <endpoint reference="../../../.."/>
-                    <version>3</version>
-                    <instances>1</instances>
-                    <versionSupported>3</versionSupported>
-                    <meterType>ELECTRIC</meterType>
-                    <meterScales>
-                      <meterScale>E_W</meterScale>
-                      <meterScale>E_V</meterScale>
-                      <meterScale>E_KWh</meterScale>
-                      <meterScale>E_A</meterScale>
-                    </meterScales>
-                    <canReset>true</canReset>
-                    <isGetSupported>true</isGetSupported>
-                    <isSupportRequestSupported>true</isSupportRequestSupported>
-                  </meterCommandClass>
-                </entry>
-              </supportedCommandClasses>
-            </endPoint>
-          </entry>
-        </endpoints>
-        <useDestEndpointAsSource>false</useDestEndpointAsSource>
-        <endpointsAreTheSameDeviceClass>true</endpointsAreTheSameDeviceClass>
-      </multiInstanceCommandClass>
-    </entry>
-    <entry>
       <commandClass>ASSOCIATION_GROUP_INFO</commandClass>
       <associationGroupInfoCommandClass>
         <version>1</version>
@@ -147,12 +51,22 @@
       </noOperationCommandClass>
     </entry>
     <entry>
-      <commandClass>FIRMWARE_UPDATE_MD</commandClass>
-      <firmwareUpdateCommandClass>
+      <commandClass>POWERLEVEL</commandClass>
+      <powerLevelCommandClass>
         <version>1</version>
         <instances>1</instances>
-        <versionSupported>2</versionSupported>
-      </firmwareUpdateCommandClass>
+        <versionSupported>1</versionSupported>
+        <powerLevel>0</powerLevel>
+        <powerTimeout>0</powerTimeout>
+      </powerLevelCommandClass>
+    </entry>
+    <entry>
+      <commandClass>DEVICE_RESET_LOCALLY</commandClass>
+      <deviceResetLocallyCommandClass>
+        <version>0</version>
+        <instances>0</instances>
+        <versionSupported>0</versionSupported>
+      </deviceResetLocallyCommandClass>
     </entry>
     <entry>
       <commandClass>CRC_16_ENCAP</commandClass>
@@ -161,6 +75,41 @@
         <instances>1</instances>
         <versionSupported>1</versionSupported>
       </crc16EncapsulationCommandClass>
+    </entry>
+    <entry>
+      <commandClass>ASSOCIATION</commandClass>
+      <associationCommandClass>
+        <version>2</version>
+        <instances>1</instances>
+        <versionSupported>2</versionSupported>
+        <maxGroups>1</maxGroups>
+      </associationCommandClass>
+    </entry>
+    <entry>
+      <commandClass>ZWAVE_PLUS_INFO</commandClass>
+      <zwavePlusCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>2</versionSupported>
+        <zwPlusVersion>1</zwPlusVersion>
+        <zwPlusRole>5</zwPlusRole>
+        <zwPlusNodeType>0</zwPlusNodeType>
+        <zwPlusDeviceType>0x1000</zwPlusDeviceType>
+        <zwPlusInstallerIcon>0x1000</zwPlusInstallerIcon>
+        <isGetSupported>true</isGetSupported>
+      </zwavePlusCommandClass>
+    </entry>
+    <entry>
+      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
+      <manufacturerSpecificCommandClass>
+        <version>1</version>
+        <instances>1</instances>
+        <versionSupported>2</versionSupported>
+        <initSerialNumber>false</initSerialNumber>
+        <deviceManufacturer>134</deviceManufacturer>
+        <deviceType>258</deviceType>
+        <deviceId>95</deviceId>
+      </manufacturerSpecificCommandClass>
     </entry>
     <entry>
       <commandClass>CONFIGURATION</commandClass>
@@ -210,11 +159,41 @@
             </configurationParameter>
           </entry>
           <entry>
+            <int>101</int>
+            <configurationParameter>
+              <index>101</index>
+              <size>4</size>
+              <value>2</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
             <int>6</int>
             <configurationParameter>
               <index>6</index>
               <size>2</size>
               <value>50</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
+            <int>102</int>
+            <configurationParameter>
+              <index>102</index>
+              <size>4</size>
+              <value>1</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
+            <int>103</int>
+            <configurationParameter>
+              <index>103</index>
+              <size>4</size>
+              <value>0</value>
               <readOnly>false</readOnly>
               <writeOnly>false</writeOnly>
             </configurationParameter>
@@ -250,6 +229,56 @@
             </configurationParameter>
           </entry>
           <entry>
+            <int>13</int>
+            <configurationParameter>
+              <index>13</index>
+              <size>1</size>
+              <value>0</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
+            <int>111</int>
+            <configurationParameter>
+              <index>111</index>
+              <size>4</size>
+              <value>5</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
+            <int>112</int>
+            <configurationParameter>
+              <index>112</index>
+              <size>4</size>
+              <value>120</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
+            <int>113</int>
+            <configurationParameter>
+              <index>113</index>
+              <size>4</size>
+              <value>120</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
+            <int>252</int>
+            <configurationParameter>
+              <index>252</index>
+              <size>1</size>
+              <value>0</value>
+              <readOnly>false</readOnly>
+              <writeOnly>false</writeOnly>
+            </configurationParameter>
+          </entry>
+          <entry>
             <int>255</int>
             <configurationParameter>
               <index>255</index>
@@ -263,14 +292,30 @@
       </configurationCommandClass>
     </entry>
     <entry>
-      <commandClass>POWERLEVEL</commandClass>
-      <powerLevelCommandClass>
+      <commandClass>FIRMWARE_UPDATE_MD</commandClass>
+      <firmwareUpdateCommandClass>
         <version>1</version>
         <instances>1</instances>
-        <versionSupported>1</versionSupported>
-        <powerLevel>0</powerLevel>
-        <powerTimeout>0</powerTimeout>
-      </powerLevelCommandClass>
+        <versionSupported>2</versionSupported>
+      </firmwareUpdateCommandClass>
+    </entry>
+    <entry>
+      <commandClass>METER</commandClass>
+      <meterCommandClass>
+        <version>3</version>
+        <instances>1</instances>
+        <versionSupported>3</versionSupported>
+        <meterType>ELECTRIC</meterType>
+        <meterScales>
+          <meterScale>E_A</meterScale>
+          <meterScale>E_V</meterScale>
+          <meterScale>E_W</meterScale>
+          <meterScale>E_KWh</meterScale>
+        </meterScales>
+        <canReset>true</canReset>
+        <isGetSupported>true</isGetSupported>
+        <isSupportRequestSupported>true</isSupportRequestSupported>
+      </meterCommandClass>
     </entry>
     <entry>
       <commandClass>VERSION</commandClass>
@@ -285,12 +330,100 @@
       </versionCommandClass>
     </entry>
     <entry>
-      <commandClass>DEVICE_RESET_LOCALLY</commandClass>
-      <deviceResetLocallyCommandClass>
-        <version>0</version>
-        <instances>0</instances>
-        <versionSupported>0</versionSupported>
-      </deviceResetLocallyCommandClass>
+      <commandClass>MULTI_INSTANCE</commandClass>
+      <multiInstanceCommandClass>
+        <version>2</version>
+        <instances>1</instances>
+        <versionSupported>3</versionSupported>
+        <endpoints>
+          <entry>
+            <int>1</int>
+            <endPoint>
+              <deviceClass>
+                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
+                <genericDeviceClass>METER</genericDeviceClass>
+                <specificDeviceClass>SIMPLE_METER</specificDeviceClass>
+              </deviceClass>
+              <endpointId>1</endpointId>
+              <supportedCommandClasses>
+                <entry>
+                  <commandClass>METER</commandClass>
+                  <meterCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>3</version>
+                    <instances>1</instances>
+                    <versionSupported>3</versionSupported>
+                    <meterType>ELECTRIC</meterType>
+                    <meterScales>
+                      <meterScale>E_A</meterScale>
+                      <meterScale>E_V</meterScale>
+                      <meterScale>E_W</meterScale>
+                      <meterScale>E_KWh</meterScale>
+                    </meterScales>
+                    <canReset>true</canReset>
+                    <isGetSupported>true</isGetSupported>
+                    <isSupportRequestSupported>true</isSupportRequestSupported>
+                  </meterCommandClass>
+                </entry>
+                <entry>
+                  <commandClass>BASIC</commandClass>
+                  <basicCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>0</version>
+                    <instances>0</instances>
+                    <versionSupported>0</versionSupported>
+                    <isGetSupported>true</isGetSupported>
+                  </basicCommandClass>
+                </entry>
+              </supportedCommandClasses>
+            </endPoint>
+          </entry>
+          <entry>
+            <int>2</int>
+            <endPoint>
+              <deviceClass>
+                <basicDeviceClass>ROUTING_SLAVE</basicDeviceClass>
+                <genericDeviceClass>METER</genericDeviceClass>
+                <specificDeviceClass>SIMPLE_METER</specificDeviceClass>
+              </deviceClass>
+              <endpointId>2</endpointId>
+              <supportedCommandClasses>
+                <entry>
+                  <commandClass>METER</commandClass>
+                  <meterCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>3</version>
+                    <instances>1</instances>
+                    <versionSupported>3</versionSupported>
+                    <meterType>ELECTRIC</meterType>
+                    <meterScales>
+                      <meterScale>E_A</meterScale>
+                      <meterScale>E_V</meterScale>
+                      <meterScale>E_W</meterScale>
+                      <meterScale>E_KWh</meterScale>
+                    </meterScales>
+                    <canReset>true</canReset>
+                    <isGetSupported>true</isGetSupported>
+                    <isSupportRequestSupported>true</isSupportRequestSupported>
+                  </meterCommandClass>
+                </entry>
+                <entry>
+                  <commandClass>BASIC</commandClass>
+                  <basicCommandClass>
+                    <endpoint reference="../../../.."/>
+                    <version>0</version>
+                    <instances>0</instances>
+                    <versionSupported>0</versionSupported>
+                    <isGetSupported>true</isGetSupported>
+                  </basicCommandClass>
+                </entry>
+              </supportedCommandClasses>
+            </endPoint>
+          </entry>
+        </endpoints>
+        <useDestEndpointAsSource>false</useDestEndpointAsSource>
+        <endpointsAreTheSameDeviceClass>true</endpointsAreTheSameDeviceClass>
+      </multiInstanceCommandClass>
     </entry>
     <entry>
       <commandClass>BASIC</commandClass>
@@ -300,59 +433,6 @@
         <versionSupported>1</versionSupported>
         <isGetSupported>true</isGetSupported>
       </basicCommandClass>
-    </entry>
-    <entry>
-      <commandClass>MANUFACTURER_SPECIFIC</commandClass>
-      <manufacturerSpecificCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <initSerialNumber>false</initSerialNumber>
-        <deviceManufacturer>134</deviceManufacturer>
-        <deviceType>258</deviceType>
-        <deviceId>95</deviceId>
-      </manufacturerSpecificCommandClass>
-    </entry>
-    <entry>
-      <commandClass>ZWAVE_PLUS_INFO</commandClass>
-      <zwavePlusCommandClass>
-        <version>1</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <zwPlusVersion>1</zwPlusVersion>
-        <zwPlusRole>5</zwPlusRole>
-        <zwPlusNodeType>0</zwPlusNodeType>
-        <zwPlusDeviceType>0x1000</zwPlusDeviceType>
-        <zwPlusInstallerIcon>0x1000</zwPlusInstallerIcon>
-        <isGetSupported>true</isGetSupported>
-      </zwavePlusCommandClass>
-    </entry>
-    <entry>
-      <commandClass>METER</commandClass>
-      <meterCommandClass>
-        <version>3</version>
-        <instances>1</instances>
-        <versionSupported>3</versionSupported>
-        <meterType>ELECTRIC</meterType>
-        <meterScales>
-          <meterScale>E_W</meterScale>
-          <meterScale>E_V</meterScale>
-          <meterScale>E_KWh</meterScale>
-          <meterScale>E_A</meterScale>
-        </meterScales>
-        <canReset>true</canReset>
-        <isGetSupported>true</isGetSupported>
-        <isSupportRequestSupported>true</isSupportRequestSupported>
-      </meterCommandClass>
-    </entry>
-    <entry>
-      <commandClass>ASSOCIATION</commandClass>
-      <associationCommandClass>
-        <version>2</version>
-        <instances>1</instances>
-        <versionSupported>2</versionSupported>
-        <maxGroups>1</maxGroups>
-      </associationCommandClass>
     </entry>
   </supportedCommandClasses>
   <securedCommandClasses/>
@@ -365,10 +445,10 @@
         <profile1>0x0</profile1>
         <profile2>0x0</profile2>
         <commands>
-          <commandClass>MULTI_INSTANCE</commandClass>
+          <commandClass>METER</commandClass>
           <commandClass>DEVICE_RESET_LOCALLY</commandClass>
           <commandClass>CRC_16_ENCAP</commandClass>
-          <commandClass>METER</commandClass>
+          <commandClass>MULTI_INSTANCE</commandClass>
         </commands>
         <associations>
           <associationMember>
@@ -384,6 +464,6 @@
     <int>2</int>
     <int>3</int>
   </nodeNeighbors>
-  <lastSent>2019-07-20 17:53:58.504 UTC</lastSent>
-  <lastReceived>2019-07-20 17:53:58.563 UTC</lastReceived>
+  <lastSent>2020-01-28 04:02:23.807 UTC</lastSent>
+  <lastReceived>2020-01-28 04:02:23.851 UTC</lastReceived>
 </node>

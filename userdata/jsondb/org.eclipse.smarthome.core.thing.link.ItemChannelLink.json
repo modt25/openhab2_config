@@ -70,6 +70,24 @@
       "itemName": "zwave_device_6167783f_node5_battery_level"
     }
   },
+  "HomeEnergyMeter_ResetMeter -\u003e zwave:device:6167783f:node9:meter_reset": {
+    "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "zwave",
+          "device",
+          "6167783f",
+          "node9",
+          "meter_reset"
+        ]
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "HomeEnergyMeter_ResetMeter"
+    }
+  },
   "BasementFloodSensor_BinarySensorFlood -\u003e zwave:device:6167783f:node5:sensor_binary1": {
     "class": "org.eclipse.smarthome.core.thing.link.ItemChannelLink",
     "value": {

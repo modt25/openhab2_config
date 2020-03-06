@@ -21,7 +21,8 @@
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
       "groupNames": [
-        "Nursery"
+        "Nursery",
+        "gEnergy"
       ],
       "itemType": "Number:Energy",
       "label": "Nursery Lamp Energy (kWh)",
@@ -50,7 +51,8 @@
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
       "groupNames": [
-        "LivingRoom"
+        "LivingRoom",
+        "gEnergy"
       ],
       "itemType": "Number:Energy",
       "label": "Xmas Tree Electricity Used (kWh)",
@@ -127,7 +129,7 @@
         "Batteries"
       ],
       "itemType": "Number",
-      "label": "Battery Level",
+      "label": "Flood Sensor Battery Level",
       "category": "Battery"
     }
   },
@@ -158,7 +160,7 @@
         "Batteries"
       ],
       "itemType": "Number",
-      "label": "Battery Level",
+      "label": "Nursery Multisensor Battery Level",
       "category": "Battery"
     }
   },
@@ -166,7 +168,8 @@
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
       "groupNames": [
-        "Nursery"
+        "Nursery",
+        "gEnergy"
       ],
       "itemType": "Number:Power",
       "label": "Nursery Lamp Power",
@@ -186,7 +189,8 @@
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
       "groupNames": [
-        "LivingRoom"
+        "LivingRoom",
+        "gEnergy"
       ],
       "itemType": "Number:Power",
       "label": "Xmas Tree Power Consumed",
@@ -229,6 +233,26 @@
       "category": "Humidity"
     }
   },
+  "gEnergy": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Group",
+      "label": "Home Energy",
+      "category": "Energy"
+    }
+  },
+  "HomeEnergyMeter_ResetMeter": {
+    "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [
+        "gEnergy"
+      ],
+      "itemType": "Switch",
+      "label": "Reset Energy Meter",
+      "category": "Energy"
+    }
+  },
   "LivingRoom": {
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
@@ -254,14 +278,16 @@
         "Batteries"
       ],
       "itemType": "Number",
-      "label": "Battery Level",
+      "label": "Front Door Sensor Battery Level",
       "category": "Battery"
     }
   },
   "ZW095HomeEnergyMeterGen5_ElectricMeterAmps": {
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
-      "groupNames": [],
+      "groupNames": [
+        "gEnergy"
+      ],
       "itemType": "Number:ElectricCurrent",
       "label": "Electric meter (amps)",
       "category": "Energy"
@@ -299,7 +325,9 @@
   "ElectricMeterKWh": {
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
-      "groupNames": [],
+      "groupNames": [
+        "gEnergy"
+      ],
       "itemType": "Number:Energy",
       "label": "Electric meter (kWh)",
       "category": "Energy"
@@ -308,7 +336,9 @@
   "ZW095HomeEnergyMeterGen5_ElectricMeterWatts": {
     "class": "org.eclipse.smarthome.core.items.ManagedItemProvider$PersistedItem",
     "value": {
-      "groupNames": [],
+      "groupNames": [
+        "gEnergy"
+      ],
       "itemType": "Number:Power",
       "label": "Electric meter (watts)",
       "category": "Energy"
