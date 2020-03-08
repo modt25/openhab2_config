@@ -1,0 +1,305 @@
+{
+  "meta": {
+    "fileName": "20200308T031032Z.meta",
+    "size": 2123
+  },
+  "limited": false,
+  "files": [
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 227,
+      "fileName": "20200308T031032Z.s227.tar.gz",
+      "size": 2046976,
+      "lastModified": 0
+    },
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 228,
+      "fileName": "20200308T031032Z.s228.tar.gz",
+      "size": 2092544,
+      "lastModified": 0
+    },
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 230,
+      "fileName": "20200308T031032Z.s230.tar.gz",
+      "size": 2085888,
+      "lastModified": 0
+    },
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 231,
+      "fileName": "20200308T031032Z.s231.tar.gz",
+      "size": 2086912,
+      "lastModified": 0
+    },
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 232,
+      "fileName": "20200308T031032Z.s232.tar.gz",
+      "size": 2087424,
+      "lastModified": 0
+    },
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 233,
+      "fileName": "20200308T031032Z.s233.tar.gz",
+      "size": 2085888,
+      "lastModified": 0
+    },
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 234,
+      "fileName": "20200308T031032Z.s234.tar.gz",
+      "size": 3069440,
+      "lastModified": 0
+    },
+    {
+      "database": "_internal",
+      "policy": "monitor",
+      "shardID": 235,
+      "fileName": "20200308T031032Z.s235.tar.gz",
+      "size": 1253376,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 5,
+      "fileName": "20200308T031032Z.s5.tar.gz",
+      "size": 60928,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 13,
+      "fileName": "20200308T031032Z.s13.tar.gz",
+      "size": 62976,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 21,
+      "fileName": "20200308T031032Z.s21.tar.gz",
+      "size": 100864,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 29,
+      "fileName": "20200308T031032Z.s29.tar.gz",
+      "size": 107520,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 37,
+      "fileName": "20200308T031032Z.s37.tar.gz",
+      "size": 111104,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 45,
+      "fileName": "20200308T031032Z.s45.tar.gz",
+      "size": 92672,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 53,
+      "fileName": "20200308T031032Z.s53.tar.gz",
+      "size": 116224,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 61,
+      "fileName": "20200308T031032Z.s61.tar.gz",
+      "size": 135168,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 69,
+      "fileName": "20200308T031032Z.s69.tar.gz",
+      "size": 104448,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 77,
+      "fileName": "20200308T031032Z.s77.tar.gz",
+      "size": 124928,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 85,
+      "fileName": "20200308T031032Z.s85.tar.gz",
+      "size": 118784,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 93,
+      "fileName": "20200308T031032Z.s93.tar.gz",
+      "size": 105472,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 101,
+      "fileName": "20200308T031032Z.s101.tar.gz",
+      "size": 118784,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 109,
+      "fileName": "20200308T031032Z.s109.tar.gz",
+      "size": 115200,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 117,
+      "fileName": "20200308T031032Z.s117.tar.gz",
+      "size": 111616,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 125,
+      "fileName": "20200308T031032Z.s125.tar.gz",
+      "size": 134144,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 133,
+      "fileName": "20200308T031032Z.s133.tar.gz",
+      "size": 129024,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 141,
+      "fileName": "20200308T031032Z.s141.tar.gz",
+      "size": 124416,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 149,
+      "fileName": "20200308T031032Z.s149.tar.gz",
+      "size": 101376,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 157,
+      "fileName": "20200308T031032Z.s157.tar.gz",
+      "size": 173568,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 165,
+      "fileName": "20200308T031032Z.s165.tar.gz",
+      "size": 123392,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 173,
+      "fileName": "20200308T031032Z.s173.tar.gz",
+      "size": 119296,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 181,
+      "fileName": "20200308T031032Z.s181.tar.gz",
+      "size": 124928,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 189,
+      "fileName": "20200308T031032Z.s189.tar.gz",
+      "size": 104448,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 197,
+      "fileName": "20200308T031032Z.s197.tar.gz",
+      "size": 111104,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 205,
+      "fileName": "20200308T031032Z.s205.tar.gz",
+      "size": 117760,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 213,
+      "fileName": "20200308T031032Z.s213.tar.gz",
+      "size": 144896,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 221,
+      "fileName": "20200308T031032Z.s221.tar.gz",
+      "size": 112640,
+      "lastModified": 0
+    },
+    {
+      "database": "openhab_db",
+      "policy": "autogen",
+      "shardID": 229,
+      "fileName": "20200308T031032Z.s229.tar.gz",
+      "size": 89600,
+      "lastModified": 0
+    }
+  ]
+}
